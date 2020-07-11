@@ -1,7 +1,8 @@
 /* Object.freeze --> prevents an object from being altered */
 
 function freezeObj() {
-    'use strict';
+    
+
     const MATH_CONSTANTS = {
       PI: 3.14
     };

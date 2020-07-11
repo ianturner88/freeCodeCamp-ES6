@@ -3,7 +3,8 @@ are still mutable */
 
 const s = [5, 7, 2];
 function editInPlace() {
-  'use strict';
+  
+
   // Only change code below this line
 
   s[0] = 2;

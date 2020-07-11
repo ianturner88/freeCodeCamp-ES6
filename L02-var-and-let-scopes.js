@@ -2,10 +2,11 @@
 a block, statement or expression */
 
 function checkScope() {
-    'use strict';
-    let  i = 'function scope';
+    
+
+    const  i = 'function scope';
     if (true) {
-      let i = 'block scope';
+      const i = 'block scope';
       console.log('Block scope i is: ', i);
     }
     console.log('Function scope i is: ', i);
