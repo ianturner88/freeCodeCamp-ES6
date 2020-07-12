@@ -5,8 +5,11 @@ const result = {
 };
 function makeList(arr) {
   // Only change code below this line
-  const resultDisplayArray = null;
-  // Only change code above this line
+  const resultDisplayArray = [];
+
+  for (let i = 0; i < arr.length; i += 1) {
+    resultDisplayArray.push(`<li class="text-warning">${arr[i]}</li>`);
+  } // Only change code above this line
 
   return resultDisplayArray;
 }
